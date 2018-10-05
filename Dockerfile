@@ -1,4 +1,4 @@
-FROM Openjdk:8
+FROM openjdk:8
 # Take the war and copy to webapps of tomcat
 COPY target/*.war /app.war
 EXPOSE 8000
