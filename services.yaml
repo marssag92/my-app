@@ -7,8 +7,8 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - port: 5005
-    targetPort: 5005
+  - port: 8080
+    targetPort: 8080
     nodePort: 32005
   selector:
-    app: oms-api-app
+    app: my-app
